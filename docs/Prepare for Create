@@ -9,18 +9,29 @@ title: Prepare for Create
 
 We believe there is a way of building technology that redemptively changes the world while transforming those who build it. This set of video trainings will help prepare you to lead each of the 4D Cycle sessions within your community for your Create cycle.
 
-## Table of Contents
+## DISCOVER
+<div className={styles.videos}>
+  <YouTubeVideo id="lT7xIHBhg8" title="FaithTech Create 4D Training - Week 1: Discover" />
+</div>
 
-1. [Discover](discover/intro)
-2. [Discern](discern/intro)
-3. [Develop](develop/intro)
-4. [Demonstrate](demonstrate/intro)
+## DISCERN
+<div className={styles.videos}>
+  <YouTubeVideo id="bqZw9gXSidQ" title="FaithTech Create 4D Training - Week 2: Discern" />
+</div>
 
-## How to Use This Workbook
+## DEVELOP
+<div className={styles.videos}>
+  <YouTubeVideo id="2s3SmnxRmJ8" title="FaithTech Create 4D Training Week 3: Develop" />
+</div>
 
-Each section of this workbook corresponds to a stage in the 4D Cycle. Work through each section in order, completing the exercises and reflecting on the questions provided. Feel free to revisit sections as needed and adapt the exercises to your specific context.
+## DEMONSTRATE
+<div className={styles.videos}>
+  <YouTubeVideo id="NCdcAV-9OB4" title="FaithTech Create 4D Training - Week 4: Demonstrate" />
+</div>
 
-As you progress through the workbook, remember that practicing redemptive technology is an ongoing journey. Continue to apply these principles in your work, always seeking to build technology that helps humanity become persons who love God and love others more deeply.
+## How to Use This Training
+
+Each video training below provides a detailed walkthrough of each week of a 4D Cycle. While this material attempts to be all-inclusive, you may find yourself with more questions. If you need further assistance to get prepared for your Create cycle, reach out to your Regional Manager.
 
 Let's begin our journey towards redemptive technology!
 
