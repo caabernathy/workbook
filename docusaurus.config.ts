@@ -8,14 +8,14 @@ const config: Config = {
   favicon: '/img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://faithtechlabs.github.io/',
+  url: 'https://faithtechcreate.github.io/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/workbook/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'faithtechlabs', // Usually your GitHub org/user name.
+  organizationName: 'faithtechcreate', // Usually your GitHub org/user name.
   projectName: 'workbook', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -38,7 +38,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/FaithTechLabs/workbook/blob/main',
+            'https://github.com/FaithTechCreate/workbook/blob/main',
         },
         blog: {
           showReadingTime: true,
@@ -67,7 +67,7 @@ const config: Config = {
         {to: '/docs/intro', label: 'Docs', position: 'left'},
         {to: '/blog', label: 'Stories', position: 'left'},
         {
-          href: 'https://github.com/FaithTechLabs/workbook',
+          href: 'https://github.com/FaithTechCreate/workbook',
           label: 'GitHub',
           position: 'right',
         },
@@ -111,7 +111,7 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/FaithTechLabs/workbook',
+              href: 'https://github.com/FaithTechCreate/workbook',
             },
           ],
         },

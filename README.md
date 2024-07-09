@@ -1,8 +1,8 @@
 [![CC BY 4.0 License](https://badgen.net/badge/license/CC%20BY%204.0/blue)](LICENSE)
-![CI Status](https://github.com/FaithTechLabs/workbook/actions/workflows/deploy.yml/badge.svg)
+![CI Status](https://github.com/FaithTechCreate/workbook/actions/workflows/deploy.yml/badge.svg)
 ![Develop](https://badgen.net/badge/stage/develop/blue)
 
-This repository contains the website configuration and documentation that powers the [FaithTech Workbook website](https://faithtechlabs.github.io/workbook/)
+This repository contains the website configuration and documentation that powers the [FaithTech Workbook website](https://faithtechcreate.github.io/workbook/)
 
 ## 📋 Requirements
 
@@ -44,7 +44,7 @@ Details on how to get involved with the project.
 We have adopted a Code of Conduct that we expect project participants to adhere to.
 Please read the [full text][code] so that you can understand what actions will and will not be tolerated.
 
-[code]: https://github.com/FaithTechLabs/.github/blob/main/CODE_OF_CONDUCT.md
+[code]: https://github.com/FaithTechCreate/.github/blob/main/CODE_OF_CONDUCT.md
 
 ### Contributing Guide
 
