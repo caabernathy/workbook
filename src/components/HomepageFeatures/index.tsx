@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'A Different Way',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/feature-1.svg').default,
     description: (
       <>
         We believe there is a way of building technology that redemptively 
@@ -21,7 +21,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Community Driven',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/feature-2.svg').default,
     description: (
       <>
         Our community has developed a uniquely Jesus-centered way to build
@@ -31,7 +31,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Biblical Framework',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/feature-3.svg').default,
     description: (
       <>
         The methodology steps include teaching and tools to help you use
