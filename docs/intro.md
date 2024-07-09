@@ -11,10 +11,11 @@ Welcome to the Redemptive Technology Workbook! This guide is designed to help yo
 
 ## Table of Contents
 
+1. [Prepare](prepare/intro)
 1. [Discover](discover/intro)
-2. [Discern](discern/intro)
-3. [Develop](develop/intro)
-4. [Demonstrate](demonstrate/intro)
+1. [Discern](discern/intro)
+1. [Develop](develop/intro)
+1. [Demonstrate](demonstrate/intro)
 
 ## How to Use This Workbook
 
