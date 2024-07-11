@@ -1,44 +1,44 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import { themes as prismThemes } from "prism-react-renderer";
+import type { Config } from "@docusaurus/types";
+import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: 'FaithTech Workbook',
-  tagline: 'Practicing Redemptive Technology Design',
-  favicon: '/img/favicon.ico',
+  title: "FaithTech Workbook",
+  tagline: "Practicing Redemptive Technology Design",
+  favicon: "/img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://faithtechcreate.github.io/',
+  url: "https://faithtechcreate.github.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/workbook/',
+  baseUrl: "/workbook/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'faithtechcreate', // Usually your GitHub org/user name.
-  projectName: 'workbook', // Usually your repo name.
+  organizationName: "faithtechcreate", // Usually your GitHub org/user name.
+  projectName: "workbook", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       {
         docs: {
-          sidebarPath: './sidebars.ts',
+          routeBasePath: "/",
+          sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/FaithTechCreate/workbook/blob/main',
+          editUrl: "https://github.com/FaithTechCreate/workbook/blob/main",
         },
         blog: {
           showReadingTime: true,
@@ -48,7 +48,7 @@ const config: Config = {
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
     ],
@@ -56,62 +56,62 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/faithtech-social-card.jpg',
+    image: "img/faithtech-social-card.jpg",
     navbar: {
-      title: 'FaithTech Workbook',
+      title: "FaithTech Workbook",
       logo: {
-        alt: 'FaithTech Logo',
-        src: 'img/logo.svg',
+        alt: "FaithTech Logo",
+        src: "img/logo.svg",
       },
       items: [
-        {to: '/docs/intro', label: 'Docs', position: 'left'},
-        {to: '/blog', label: 'Stories', position: 'left'},
+        { to: "/intro", label: "Docs", position: "left" },
+        { to: "/blog", label: "Stories", position: "left" },
         {
-          href: 'https://github.com/FaithTechCreate/workbook',
-          label: 'GitHub',
-          position: 'right',
+          href: "https://github.com/FaithTechCreate/workbook",
+          label: "GitHub",
+          position: "right",
         },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
         {
-          title: 'Docs',
+          title: "Docs",
           items: [
             {
-              label: 'Overview',
-              to: '/docs/intro',
+              label: "Overview",
+              to: "/intro",
             },
           ],
         },
         {
-          title: 'Community',
+          title: "Community",
           items: [
             {
-              label: 'LinkedIn',
-              href: 'https://www.linkedin.com/company/faithtechhub/',
+              label: "LinkedIn",
+              href: "https://www.linkedin.com/company/faithtechhub/",
             },
             {
-              label: 'Slack',
-              href: 'https://faithtechhub.slack.com',
+              label: "Slack",
+              href: "https://faithtechhub.slack.com",
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/faithtechhub',
+              label: "Twitter",
+              href: "https://twitter.com/faithtechhub",
             },
           ],
         },
         {
-          title: 'More',
+          title: "More",
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: "Blog",
+              to: "/blog",
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/FaithTechCreate/workbook',
+              label: "GitHub",
+              href: "https://github.com/FaithTechCreate/workbook",
             },
           ],
         },
