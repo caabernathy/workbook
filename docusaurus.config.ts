@@ -64,7 +64,7 @@ const config: Config = {
         src: "img/logo.svg",
       },
       items: [
-        { to: "/intro", label: "Docs", position: "left" },
+        { to: "/", label: "Docs", position: "left" },
         { to: "/blog", label: "Stories", position: "left" },
         {
           href: "https://github.com/FaithTechCreate/workbook",
@@ -81,7 +81,7 @@ const config: Config = {
           items: [
             {
               label: "Overview",
-              to: "/intro",
+              to: "/",
             },
           ],
         },
