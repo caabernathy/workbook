@@ -54,6 +54,19 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      "@docusaurus/plugin-content-docs",
+      {
+        id: "support",
+        path: "support",
+        routeBasePath: "support",
+        editUrl: "https://github.com/FaithTechCreate/workbook/blob/main",
+        sidebarPath: "./sidebarsSupport.ts",
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: "img/faithtech-social-card.jpg",
@@ -65,6 +78,7 @@ const config: Config = {
       },
       items: [
         { to: "/", label: "Docs", position: "left" },
+        { to: "/support", label: "Support", position: "left" },
         { to: "/blog", label: "Stories", position: "left" },
         {
           href: "https://github.com/FaithTechCreate/workbook",
