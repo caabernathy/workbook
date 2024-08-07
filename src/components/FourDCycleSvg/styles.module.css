@@ -1,0 +1,7 @@
+.primaryPath {
+  fill: var(--ifm-color-primary);
+}
+
+.secondaryPath {
+  fill: var(--ifm-font-color-secondary);
+}
